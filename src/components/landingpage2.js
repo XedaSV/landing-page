@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function LandingPage (){
 
     return (
@@ -23,8 +24,11 @@ function LandingPage (){
             Home
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href='/man+van'>Man and Van</a></li>
-            <li><a class="dropdown-item" href='/'>Cleaning Services</a></li>
+          <li><Link className='dropdown-item' to="/man+van">Man and Van</Link></li>
+          <li>
+          <Link className='dropdown-item' to="/">Cleaning Services</Link>
+           </li>
+           
           </ul>
         </li>
                                                 <li className="nav-item">
@@ -285,17 +289,13 @@ function LandingPage (){
                                         Useful links
                                     </h4>
                                     <ul>
-                                        <li>
-                                            <a href="/" className="single-link">
-                                              Xeda
-                                            </a>
+                                    <li>
+                                        <Link className='single-link' to="/man+van">Man and Van</Link>
                                         </li>
                                         <li>
-                                            <a href="/man+van" className="single-link">
-                                            Xeda "man and van"
-                                            </a>
+                                        <Link className='single-link' to="/">Cleaning Services</Link>
+                                           
                                         </li>
-                                       
                                     </ul>
                                 </div>
                             </div>

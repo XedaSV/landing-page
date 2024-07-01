@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function LandingPage (){
 
     return (
@@ -21,8 +22,10 @@ function LandingPage (){
             Home
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href='/'>Cleaning Services</a></li>
-            <li><a class="dropdown-item" href='/man+van'>Man and Van</a></li>
+            <li>
+                <Link className='dropdown-item' to="/">Cleaning Services</Link>
+                </li>
+            <li><Link className='dropdown-item' to="/man+van">Man and Van</Link></li>
           </ul>
         </li>
                                                 <li className="nav-item">
@@ -241,26 +244,7 @@ function LandingPage (){
                                     <p>At Xeda, we believe that a clean environment contributes to a healthier, happier life. Our dedicated team of professionals is committed to providing top-notch cleaning services tailored to your needs. Whether it’s residential, commercial, or specialized cleaning, we’ve got you covered.</p>
                                     <div className="social-links">
                                         <ul>
-                                            <li>
-                                                <a href="#0" className="single-link">
-                                                    <i className="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" className="single-link">
-                                                    <i className="fab fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" className="single-link">
-                                                    <i className="fab fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" className="single-link">
-                                                    <i className="fab fa-pinterest-p"></i>
-                                                </a>
-                                            </li>
+                                           
                                         </ul>
                                     </div>
                                 </div>
@@ -272,14 +256,11 @@ function LandingPage (){
                                     </h4>
                                     <ul>
                                         <li>
-                                            <a href="#0" className="single-link">
-                                               Man and Van
-                                            </a>
+                                        <Link className='single-link' to="/man+van">Man and Van</Link>
                                         </li>
                                         <li>
-                                            <a href="#0" className="single-link">
-                                                Cleaning Services
-                                            </a>
+                                        <Link className='single-link' to="/">Cleaning Services</Link>
+                                           
                                         </li>
                                        
                                     </ul>
@@ -296,7 +277,7 @@ function LandingPage (){
                                            Email Us
                                         </a>
                                     </form>
-                                    <p>📞 Call us at : +447827739121  📧 Email:  xedaservices5@gmail.com 📍 Visit our website: www.xedacleaningservices.com</p>
+                                    <p>📞 Call us at : +447827739121  📧 Email:  xedaservices5@gmail.com </p>
                                 </div>
                             </div>
                         </div>
