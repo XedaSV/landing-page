@@ -1,3 +1,4 @@
+import './landingpage2.css'
 import { Link } from 'react-router-dom';
 function LandingPage (){
 
@@ -42,7 +43,7 @@ function LandingPage (){
     </div>
   </div>
 </nav>
-            <div className="banner banner-style-2">
+            <div className="banner2 banner-style-2" >
                 <div className="container">
                     <div className="row justify-content-xl-between justify-content-lg-between justify-content-md-center justify-content-sm-center">
                         <div className="col-xl-7 col-lg-7 col-sm-10 col-md-9 d-xl-flex d-lg-flex d-block align-items-center d-banner-tamim">
@@ -58,12 +59,12 @@ function LandingPage (){
                         <div className="col-xl-4 col-lg-5 col-sm-10 col-md-8 monitor-for-480">
                             <div className="profit-calculator">
                                 <div className="calc-header">
-                                    <h3 className="title">Who <span className="special"> are we?</span></h3>
+                                    <h3 className="title"> <Link className='dropdown-item' to="/">Cleaning Services</Link>
+                                    </h3>
                                 </div>
                                 <div className="calc-header">
-                                    <h3 className="title">Why Choose Xeda?</h3>
+                                    <h3 className="title"><Link className='dropdown-item' to="/man+van">Man and Van</Link></h3>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -259,26 +260,7 @@ function LandingPage (){
                                     <p>At Xeda "man and van" business, We are providing versatile and convenient transportation solutions. This service is tailored to meet the diverse needs of the community, offering flexibility and reliability.</p>
                                     <div className="social-links">
                                         <ul>
-                                            <li>
-                                                <a href="#0" className="single-link">
-                                                    <i className="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" className="single-link">
-                                                    <i className="fab fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" className="single-link">
-                                                    <i className="fab fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" className="single-link">
-                                                    <i className="fab fa-pinterest-p"></i>
-                                                </a>
-                                            </li>
+                                          
                                         </ul>
                                     </div>
                                 </div>
