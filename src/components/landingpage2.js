@@ -292,7 +292,7 @@ function LandingPage (){
                                            Email Us
                                         </a>
                                     </form>
-                                    <p>📞 Call us at : +447827739121  📧 Email:  xedaservices5@gmail.com 📍 Visit our website: www.xedacleaningservices.com</p>
+                                    <p>📞 Call us at : +447827739121  📧 Email:  xedaservices5@gmail.com </p>
                                 </div>
                             </div>
                         </div>
